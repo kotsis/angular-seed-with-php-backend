@@ -10,3 +10,8 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+
+//import * as $ from 'jquery';
+//$.ajax("aa");
+
+//alert('kmak');
