@@ -1,7 +1,12 @@
-# Myang
+# Angular seed with php backend
 This project is an Angular based seed project with Bootstrap theme and a php API on the backend. Angular seed project based in AngularJS has been an inspiration.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3 for Angular 5.
+
+a) Bootstrap enabled
+b) Login popup in secondary route.
+c) PHP placeholder API for user management
+d) Protected route for logged in users only.
 
 ## Development server
 
