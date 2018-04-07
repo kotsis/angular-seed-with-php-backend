@@ -12,13 +12,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 You need locally **php**, **composer**, **node**, **npm** and **@angular/cli**
 
 ## Usage for development
-Clone the project locally: `git clone git@github.com:kotsis/angular-seed-with-php-backend.git`
+Do these steps:
 
-`cd angular-seed-with-php-backend/api`
-`composer install`
-`cd ..`
-`npm install`
-`npm start`
+1. `git clone git@github.com:kotsis/angular-seed-with-php-backend.git`
+2. `cd angular-seed-with-php-backend/api`
+3. `composer install`
+4. `cd ..`
+5. `npm install`
+6. `npm start`
 
 Now you can view the application in [localhost:4200](http://localhost:4200) and the API runs in [localhost:8000/api/](http://localhost:8000/api/)
 
