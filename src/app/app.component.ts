@@ -1,4 +1,6 @@
+import { Observable } from 'rxjs/Observable';
 import { Component } from '@angular/core';
+import { AuthService } from './auth/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  appLoggedIn: Observable<boolean>;
+  constructor(private myauth: AuthService){
+	this.appLoggedIn = this.myauth.isLoggedIn;
+  }
 }
